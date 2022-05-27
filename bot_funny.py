@@ -2,10 +2,10 @@ import telebot
 import time
 
 # token
-bot = telebot.TeleBot("5577968369:AAF9fFDTSIWXfY_oWdf3iVBzSgSeZyUFcBw")
+bot = telebot.TeleBot("TOKEN")
 
 # link to the channel
-CHANNEL_NAME = "@lablablab23"
+CHANNEL_NAME = "@CHANNELNAME"
 
 # загрузка списка шуток
 f = open("data/fun.txt", "r", encoding="UTF-8")
